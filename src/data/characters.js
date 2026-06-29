@@ -187,7 +187,7 @@ export const characters = [
     nickname: "Tinni",
     personality: "Alegre & Artística",
     description: "Una habitual de la isla que trae color y creatividad a todo lo que toca. Ya sea dibujando, decorando o arrastrando a la gente a aventuras espontáneas, el entusiasmo de Tinnakiten es imposible de resistir.",
-    image: "../public/tinnakiten.jpg",
+    image: "/tinnakiten.jpg",
     video: null,
     audio: null,
     favoriteFood: "Crepes y todo lo de matcha",
