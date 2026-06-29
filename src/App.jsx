@@ -42,7 +42,6 @@ const App = () => {
               <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="m20 18l-4-5h3l-4-5h2l-5-6l-5 6h2l-4 5h3l-4 5h7v4h2v-4z"/></svg>
             </span>
             <h1 className="site-header__title">Tomodachi Life</h1>
-            <p className="site-header__sub">Holas Buenas</p>
             <p className="site-header__sub">Este es un listado de personajes/personas que esten en un mundo de tomodachi life</p>
           </div>
         </header>
