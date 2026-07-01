@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import CharacterGrid from "./components/CharacterGrid";
 import CharacterModal from "./components/CharacterModal";
 import CharacterDetail from "./components/CharacterDetail";
+import PetGrid from "./components/PetGrid"
+import FoodGrid from "./components/FoodGrid"
 import { characters } from "./data/characters";
+import { pets } from "./data/pets"  
+import { foods } from "./data/foods"
 import "./App.css";
 
 const App = () => {
@@ -59,8 +63,8 @@ const App = () => {
         {/* MASCOTAS */}
         <div className="catalog">
           <h1 className="catalog-title">Mascotas</h1>
-          <CharacterGrid
-            characters={characters}
+          <PetGrid
+            pets={pets}
             onCardClick={handleCardClick}
             expandedMobile={expandedMobile}
           />
@@ -69,8 +73,8 @@ const App = () => {
         {/* COMIDAS */}
         <div className="catalog">
           <h1 className="catalog-title">Comida</h1>
-          <CharacterGrid
-            characters={characters}
+          <FoodGrid
+            foods={foods}
             onCardClick={handleCardClick}
             expandedMobile={expandedMobile}
           />
